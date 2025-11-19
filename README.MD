@@ -1,31 +1,38 @@
-# Hệ Thống Quản Lý Danh Bạ Điện Thoại
+cat > README.md << 'EOF'
+# 📞 PhoneBook Management System
 
-## Mô tả
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Hệ thống quản lý danh bạ điện thoại được phát triển bằng Python với các tính năng cơ bản theo yêu cầu từ tài liệu đặc tả.
+Hệ thống quản lý danh bạ điện thoại được phát triển bằng Python với đầy đủ tính năng CRUD, quản lý người dùng và sao lưu dữ liệu.
 
-## Tính năng chính
+## ✨ Tính năng nổi bật
 
-### Cho người dùng thông thường:
+### 👤 Cho người dùng thông thường
+- ✅ **Đăng ký/Đăng nhập** tài khoản
+- ✅ **Thêm, sửa, xóa** liên hệ
+- ✅ **Tìm kiếm** liên hệ theo nhiều tiêu chí
+- ✅ **Quản lý nhóm** liên hệ
+- ✅ **Đánh dấu yêu thích** liên hệ
+- ✅ **Xuất/nhập** liên hệ từ file TXT
+- ✅ **Cập nhật** hồ sơ người dùng
 
-- ✅ Đăng ký/Đăng nhập tài khoản
-- ✅ Thêm, sửa, xóa liên hệ
-- ✅ Tìm kiếm liên hệ theo nhiều tiêu chí
-- ✅ Quản lý liên hệ theo nhóm
-- ✅ Đánh dấu liên hệ yêu thích
-- ✅ Xuất/nhập liên hệ từ file CSV
-- ✅ Cập nhật hồ sơ người dùng
+### 👑 Cho quản trị viên
+- ✅ **Quản lý người dùng** (kích hoạt/vô hiệu hóa)
+- ✅ **Sao lưu hệ thống**
+- ✅ **Xem toàn bộ** dữ liệu
 
-### Cho quản trị viên:
+## 🛠 Cài đặt và chạy
 
-- ✅ Quản lý người dùng
-- ✅ Sao lưu hệ thống
-- ✅ Vô hiệu hóa tài khoản người dùng
+### Yêu cầu hệ thống
+- Python 3.9+
+- Không cần thư viện bên ngoài
 
-## Cài đặt và chạy ứng dụng
-
-### Chạy trực tiếp với Python
-
+### Chạy ứng dụng
 ```bash
+# Clone repository
+git clone https://github.com/your-username/phonebook-management-system.git
+cd phonebook-management-system
+
+# Chạy ứng dụng
 python main.py
-```
